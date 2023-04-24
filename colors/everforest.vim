@@ -474,73 +474,73 @@ call everforest#highlight('TSUnderline', s:palette.none, s:palette.none, 'underl
 call everforest#highlight('TSNote', s:palette.bg0, s:palette.green, 'bold')
 call everforest#highlight('TSWarning', s:palette.bg0, s:palette.yellow, 'bold')
 call everforest#highlight('TSDanger', s:palette.bg0, s:palette.red, 'bold')
-highlight! link TSAnnotation Purple
-highlight! link TSAttribute Purple
-highlight! link TSBoolean Purple
-highlight! link TSCharacter Aqua
-highlight! link TSCharacterSpecial SpecialChar
-highlight! link TSComment Comment
-highlight! link TSConditional Red
-highlight! link TSConstBuiltin PurpleItalic
-highlight! link TSConstMacro PurpleItalic
-highlight! link TSConstant Fg
-highlight! link TSConstructor Green
-highlight! link TSDebug Debug
-highlight! link TSDefine Define
-highlight! link TSEnvironment Macro
-highlight! link TSEnvironmentName Type
-highlight! link TSError Error
-highlight! link TSException Red
-highlight! link TSField Blue
-highlight! link TSFloat Purple
-highlight! link TSFuncBuiltin Green
-highlight! link TSFuncMacro Green
-highlight! link TSFunction Green
-highlight! link TSFunctionCall Green
-highlight! link TSInclude Red
-highlight! link TSKeyword Red
-highlight! link TSKeywordFunction Red
-highlight! link TSKeywordOperator Orange
-highlight! link TSKeywordReturn Red
-highlight! link TSLabel Orange
-highlight! link TSLiteral String
-highlight! link TSMath Blue
-highlight! link TSMethod Green
-highlight! link TSMethodCall Green
-highlight! link TSNamespace YellowItalic
-highlight! link TSNone Fg
-highlight! link TSNumber Purple
-highlight! link TSOperator Orange
-highlight! link TSParameter Fg
-highlight! link TSParameterReference Fg
-highlight! link TSPreProc PreProc
-highlight! link TSProperty Blue
-highlight! link TSPunctBracket Fg
-highlight! link TSPunctDelimiter Grey
-highlight! link TSPunctSpecial Blue
-highlight! link TSRepeat Red
-highlight! link TSStorageClass Orange
-highlight! link TSStorageClassLifetime Orange
-highlight! link TSStrike Grey
-highlight! link TSString Aqua
-highlight! link TSStringEscape Green
-highlight! link TSStringRegex Green
-highlight! link TSStringSpecial SpecialChar
-highlight! link TSSymbol Fg
-highlight! link TSTag Orange
-highlight! link TSTagAttribute Green
-highlight! link TSTagDelimiter Green
-highlight! link TSText Green
-highlight! link TSTextReference Constant
-highlight! link TSTitle Title
-highlight! link TSTodo Todo
-highlight! link TSType YellowItalic
-highlight! link TSTypeBuiltin YellowItalic
-highlight! link TSTypeDefinition YellowItalic
-highlight! link TSTypeQualifier Orange
-highlight! link TSURI markdownUrl
-highlight! link TSVariable Fg
-highlight! link TSVariableBuiltin PurpleItalic
+" highlight! link TSAnnotation Purple
+" highlight! link TSAttribute Purple
+" highlight! link TSBoolean Purple
+" highlight! link TSCharacter Aqua
+" highlight! link TSCharacterSpecial SpecialChar
+" highlight! link TSComment Comment
+" highlight! link TSConditional Red
+" highlight! link TSConstBuiltin PurpleItalic
+" highlight! link TSConstMacro PurpleItalic
+" highlight! link TSConstant Fg
+" highlight! link TSConstructor Green
+" highlight! link TSDebug Debug
+" highlight! link TSDefine Define
+" highlight! link TSEnvironment Macro
+" highlight! link TSEnvironmentName Type
+" highlight! link TSError Error
+" highlight! link TSException Red
+" highlight! link TSField Blue
+" highlight! link TSFloat Purple
+" highlight! link TSFuncBuiltin Green
+" highlight! link TSFuncMacro Green
+" highlight! link TSFunction Green
+" highlight! link TSFunctionCall Green
+" highlight! link TSInclude Red
+" highlight! link TSKeyword Red
+" highlight! link TSKeywordFunction Red
+" highlight! link TSKeywordOperator Orange
+" highlight! link TSKeywordReturn Red
+" highlight! link TSLabel Orange
+" highlight! link TSLiteral String
+" highlight! link TSMath Blue
+" highlight! link TSMethod Green
+" highlight! link TSMethodCall Green
+" highlight! link TSNamespace YellowItalic
+" highlight! link TSNone Fg
+" highlight! link TSNumber Purple
+" highlight! link TSOperator Orange
+" highlight! link TSParameter Fg
+" highlight! link TSParameterReference Fg
+" highlight! link TSPreProc PreProc
+" highlight! link TSProperty Blue
+" highlight! link TSPunctBracket Fg
+" highlight! link TSPunctDelimiter Grey
+" highlight! link TSPunctSpecial Blue
+" highlight! link TSRepeat Red
+" highlight! link TSStorageClass Orange
+" highlight! link TSStorageClassLifetime Orange
+" highlight! link TSStrike Grey
+" highlight! link TSString Aqua
+" highlight! link TSStringEscape Green
+" highlight! link TSStringRegex Green
+" highlight! link TSStringSpecial SpecialChar
+" highlight! link TSSymbol Fg
+" highlight! link TSTag Orange
+" highlight! link TSTagAttribute Green
+" highlight! link TSTagDelimiter Green
+" highlight! link TSText Green
+" highlight! link TSTextReference Constant
+" highlight! link TSTitle Title
+" highlight! link TSTodo Todo
+" highlight! link TSType YellowItalic
+" highlight! link TSTypeBuiltin YellowItalic
+" highlight! link TSTypeDefinition YellowItalic
+" highlight! link TSTypeQualifier Orange
+" highlight! link TSURI markdownUrl
+" highlight! link TSVariable Fg
+" highlight! link TSVariableBuiltin PurpleItalic
 if has('nvim-0.8.0')
   highlight! link @annotation TSAnnotation
   highlight! link @attribute TSAttribute
@@ -2449,18 +2449,18 @@ endif
 " syn_end }}}
 " syn_begin: rust {{{
 " builtin: https://github.com/rust-lang/rust.vim {{{
-highlight! link rustStructure Orange
-highlight! link rustIdentifier Purple
-highlight! link rustModPath Orange
-highlight! link rustModPathSep Grey
-highlight! link rustSelf Blue
-highlight! link rustSuper Blue
-highlight! link rustDeriveTrait PurpleItalic
-highlight! link rustEnumVariant Purple
-highlight! link rustMacroVariable Blue
-highlight! link rustAssert Aqua
-highlight! link rustPanic Aqua
-highlight! link rustPubScopeCrate PurpleItalic
+" highlight! link rustStructure Orange
+" highlight! link rustIdentifier Purple
+" highlight! link rustModPath Orange
+" highlight! link rustModPathSep Grey
+" highlight! link rustSelf Blue
+" highlight! link rustSuper Blue
+" highlight! link rustDeriveTrait PurpleItalic
+" highlight! link rustEnumVariant Purple
+" highlight! link rustMacroVariable Blue
+" highlight! link rustAssert Aqua
+" highlight! link rustPanic Aqua
+" highlight! link rustPubScopeCrate PurpleItalic
 " }}}
 " coc-rust-analyzer: https://github.com/fannheyward/coc-rust-analyzer {{{
 highlight! link CocRustChainingHint Grey
