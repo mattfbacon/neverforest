@@ -2381,6 +2381,7 @@ highlight! link moonDotAccess Grey
 " syn_end }}}
 " syn_begin: java {{{
 " builtin: {{{
+highlight! link javaConceptKind Fg
 " }}}
 " syn_end }}}
 " syn_begin: kotlin {{{
