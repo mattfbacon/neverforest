@@ -2381,18 +2381,6 @@ highlight! link moonDotAccess Grey
 " syn_end }}}
 " syn_begin: java {{{
 " builtin: {{{
-highlight! link javaClassDecl RedItalic
-highlight! link javaMethodDecl RedItalic
-highlight! link javaVarArg Green
-highlight! link javaAnnotation Blue
-highlight! link javaUserLabel Purple
-highlight! link javaTypedef Aqua
-highlight! link javaParen Fg
-highlight! link javaParen1 Fg
-highlight! link javaParen2 Fg
-highlight! link javaParen3 Fg
-highlight! link javaParen4 Fg
-highlight! link javaParen5 Fg
 " }}}
 " syn_end }}}
 " syn_begin: kotlin {{{
